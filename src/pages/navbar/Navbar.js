@@ -7,6 +7,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import logo from "../../assets/images/logo-bg.png";
+import CustomButton from "../../components/CustomButton";
 
 export function NavbarDefault() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -74,12 +75,13 @@ export function NavbarDefault() {
         as="h2"
         variant="small"
         color="blue-gray"
-        className="flex items-center gap-x-2 p-1 font-medium bg-black text-white px-8 py-3 rounded-md shadow-bottom cursor-pointer"
+        className="flex items-center gap-x-2 p-1 font-medium bg-black text-white px-8 py-3 rounded-md shadow-bottom cursor-pointer w-[127px]"
       >
         <a href="#" className="flex items-center text-[20px] ">
           Login
         </a>
       </Typography>
+      {/* <CustomButton name="log" width="127px" height="56px" /> */}
     </ul>
   );
 
@@ -126,7 +128,7 @@ export function NavbarDefault() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
-              className="h-6 w-6"
+              className="h-6 w-6 text-black"
               viewBox="0 0 24 24"
               stroke="currentColor"
               strokeWidth={2}
@@ -140,7 +142,7 @@ export function NavbarDefault() {
           ) : (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
+              className="h-6 w-6 text-black"
               fill="none"
               stroke="currentColor"
               strokeWidth={2}
