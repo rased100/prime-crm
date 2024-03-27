@@ -1,4 +1,5 @@
 import "./App.css";
+import Slide from "./pages/CarouselSection/Slide";
 import Features from "./pages/Features/Features";
 import ManagementOne from "./pages/Management/ManagementOne";
 import ManagementTwo from "./pages/Management/ManagementTwo";
@@ -21,6 +22,7 @@ function App() {
       <SellServe />
       <Modules />
       <HowWorks />
+      <Slide />
     </div>
   );
 }
