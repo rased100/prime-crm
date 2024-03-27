@@ -19,7 +19,7 @@ const Banner = () => {
           {/* Left side content */}
           <div className="text-[#303030] mt-32 lg:mt-0">
             <div>
-              <h1 className="text-2xl text-[40px] md:text-[45px] lg:text-[40px] xl:text-[50px] font-semibold text-center lg:text-left leading-relaxed lg:leading-10">
+              <h1 className="text-2xl text-[40px] md:text-[45px] lg:text-[40px] xl:text-[50px] font-semibold text-center lg:text-left leading-relaxed">
                 The CRM Platform <br /> Your Whole Business <br /> Will Love
               </h1>
             </div>
