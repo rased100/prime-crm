@@ -26,28 +26,30 @@ const ManagementTwo = () => {
                 to transform the way you work.
               </p>
             </div>
-            <div className=" my-5 lg:border lg:rounded-3xl lg:p-5">
-              <span className="">
-                <GrShieldSecurity size={30} color="#49E4EB" />
-              </span>
-              <div>
-                <h2 className="text-xl font-semibold">Lead generation</h2>
-                <p className="text-md mt-2">
-                  Guide Helps Companies Increase Customer & Agent Satisfaction,
-                  Also Reducing Support Costs.
-                </p>
+            <div className="flex">
+              <div className=" my-5  lg:p-5">
+                <span className="">
+                  <GrShieldSecurity size={30} color="#49E4EB" />
+                </span>
+                <div>
+                  <h2 className="text-xl font-semibold">Lead generation</h2>
+                  <p className="text-md mt-2">
+                    Guide Helps Companies Increase Customer & Agent
+                    Satisfaction, Also Reducing Support Costs.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className=" my-5 lg:border lg:rounded-3xl lg:p-5">
-              <span className="">
-                <HiSpeakerphone size={30} color="#49E4EB" />
-              </span>
-              <div>
-                <h2 className="text-xl font-semibold">Team Email</h2>
-                <p className="text-md mt-2">
-                  Group Your Contacts By Location, Age, And Almost Any Behavior
-                  With Advanced Segmentation Tools.
-                </p>
+              <div className=" my-5 lg:p-5">
+                <span className="">
+                  <HiSpeakerphone size={30} color="#49E4EB" />
+                </span>
+                <div>
+                  <h2 className="text-xl font-semibold">Team Email</h2>
+                  <p className="text-md mt-2">
+                    Group Your Contacts By Location, Age, And Almost Any
+                    Behavior With Advanced Segmentation Tools.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
