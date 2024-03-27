@@ -4,6 +4,7 @@ import ManagementOne from "./pages/Management/ManagementOne";
 import ManagementTwo from "./pages/Management/ManagementTwo";
 import Banner from "./pages/banner/Banner";
 import { NavbarDefault } from "./pages/navbar/Navbar";
+import Trust from "./pages/trust/Trust";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Features />
       <ManagementOne />
       <ManagementTwo />
+      <Trust />
     </div>
   );
 }
