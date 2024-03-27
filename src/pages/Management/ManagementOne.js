@@ -24,7 +24,7 @@ const ManagementOne = () => {
                 to transform the way you work.
               </p>
             </div>
-            <div className="flex flex-col my-5 lg:border lg:rounded-3xl lg:p-5">
+            <div className="flex my-5 lg:border lg:rounded-3xl lg:p-5">
               <span className="h-[21px] w-[21px] bg-[#47CFFF] rounded-full pl-5 ml-5 mr-5"></span>
               <div>
                 <h2 className="text-xl font-semibold">Lead generation</h2>
@@ -34,7 +34,7 @@ const ManagementOne = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col my-5 lg:border lg:rounded-3xl lg:p-5">
+            <div className="flex my-5 lg:border lg:rounded-3xl lg:p-5">
               <span className="h-[21px] w-[21px] bg-[#47CFFF] rounded-full pl-5 ml-5 mr-5"></span>
               <div>
                 <h2 className="text-xl font-semibold">Team Email</h2>

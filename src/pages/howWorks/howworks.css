@@ -1,0 +1,21 @@
+.works-container {
+  background-image: url("../../assets/images/howworks/image.png");
+  background-size: 40% auto;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1023px) {
+  .works-container {
+    background-size: 30% auto;
+  }
+}
+@media (max-width: 767px) {
+  .works-container {
+    background-size: 40% auto;
+  }
+}
+@media (max-width: 387px) {
+  .works-container {
+    background-size: 50% auto;
+  }
+}

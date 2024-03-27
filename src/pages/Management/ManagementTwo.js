@@ -3,6 +3,7 @@ import chartimg from "../../assets/images/manage1/Image2.png";
 import "./mOne.css";
 import { GrShieldSecurity } from "react-icons/gr";
 import { HiSpeakerphone } from "react-icons/hi";
+import CustomButton from "../../components/CustomButton";
 
 const ManagementTwo = () => {
   return (
@@ -27,7 +28,7 @@ const ManagementTwo = () => {
               </p>
             </div>
             <div className="flex">
-              <div className=" my-5  lg:p-5">
+              <div className="">
                 <span className="">
                   <GrShieldSecurity size={30} color="#49E4EB" />
                 </span>
@@ -38,7 +39,7 @@ const ManagementTwo = () => {
                   </p>
                 </div>
               </div>
-              <div className=" my-5 lg:p-5">
+              <div className="">
                 <span className="">
                   <HiSpeakerphone size={30} color="#49E4EB" />
                 </span>
@@ -49,6 +50,9 @@ const ManagementTwo = () => {
                   </p>
                 </div>
               </div>
+            </div>
+            <div className="py-10">
+              <CustomButton name="Get Started" />
             </div>
           </div>
         </div>
