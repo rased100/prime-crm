@@ -1,6 +1,13 @@
 .manageone-container {
-  background-image: url("../../assets/images/manage1/Background.png");
+  background-image: url("../../assets/images/manage1/Background1.png");
   background-size: 39% auto;
   background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.managetwo-container {
+  background-image: url("../../assets/images/manage1/Background2.png");
+  background-size: 39% auto;
+  background-position: top right;
   background-repeat: no-repeat;
 }
