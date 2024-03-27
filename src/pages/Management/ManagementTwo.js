@@ -32,10 +32,9 @@ const ManagementTwo = () => {
                   <GrShieldSecurity size={30} color="#49E4EB" />
                 </span>
                 <div>
-                  <h2 className="text-xl font-semibold">Lead generation</h2>
+                  <h2 className="text-xl font-semibold">CRM Security</h2>
                   <p className="text-md mt-2">
-                    Guide Helps Companies Increase Customer & Agent
-                    Satisfaction, Also Reducing Support Costs.
+                    cards and make more sales while chatting
                   </p>
                 </div>
               </div>
@@ -44,10 +43,9 @@ const ManagementTwo = () => {
                   <HiSpeakerphone size={30} color="#49E4EB" />
                 </span>
                 <div>
-                  <h2 className="text-xl font-semibold">Team Email</h2>
+                  <h2 className="text-xl font-semibold">Marketing Hub</h2>
                   <p className="text-md mt-2">
-                    Group Your Contacts By Location, Age, And Almost Any
-                    Behavior With Advanced Segmentation Tools.
+                    Show off your goods in elegant product cards and mak.
                   </p>
                 </div>
               </div>

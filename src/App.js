@@ -3,6 +3,7 @@ import Features from "./pages/Features/Features";
 import ManagementOne from "./pages/Management/ManagementOne";
 import ManagementTwo from "./pages/Management/ManagementTwo";
 import Banner from "./pages/banner/Banner";
+import Modules from "./pages/modules/Modules";
 import { NavbarDefault } from "./pages/navbar/Navbar";
 import SellServe from "./pages/sellserve/SellServe";
 import Trust from "./pages/trust/Trust";
@@ -17,6 +18,7 @@ function App() {
       <ManagementTwo />
       <Trust />
       <SellServe />
+      <Modules />
     </div>
   );
 }

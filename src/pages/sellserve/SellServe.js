@@ -58,9 +58,9 @@ const SellServe = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center shadow-xl">
+        <div className="flex justify-center">
           <div className="cursor-pointer">
-            <img src={dashboardimg} alt="" className="rounded-3xl" />
+            <img src={dashboardimg} alt="" className="rounded-3xl shadow-xl" />
           </div>
         </div>
       </div>
