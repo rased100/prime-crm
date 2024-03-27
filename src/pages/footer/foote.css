@@ -1,0 +1,9 @@
+.footer-container {
+  background-image: url("../../assets/images/footer/image.png");
+  background-size: 100% auto;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.btncolor {
+  background-color: rgba(214, 223, 231, 0.616);
+}

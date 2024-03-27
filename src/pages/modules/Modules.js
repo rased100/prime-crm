@@ -15,7 +15,7 @@ const Modules = () => {
         </div>
         {/* Border area start */}
         <div className="border-dashed border-[#DBDBDB] border-2 rounded-2xl">
-          <div className="flex justify-center m-2 pt-16 bg-[#F9F9F9] rounded-2xl">
+          <div className="flex flex-col lg:flex-row justify-center m-2 pt-16 bg-[#F9F9F9] rounded-2xl">
             {/* First Col */}
             <div className="">
               <button
